@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Suyi Agro</title>
+<style>
+body { background-color: lightgreen; padding: 20px; }
+nav { background-color: green; padding: 10px; }
+nav a { color: white; margin: 10px; text-decoration: none; font-size: 18px; }
+h1 { color: green; font-size: 50px; }
+h2 { color: darkgreen; }
+h3 { color: orange; }
+p { font-size: 20px; color: black; }
+button { background-color: green; color: white; padding: 10px 20px; border: none; font-size: 16px; }
+footer { background-color: darkgreen; color: white; padding: 20px; text-align: center; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Products</a>
+  <a href="#">Contact</a>
+</nav>
+<h1>Suyi Agro</h1>
+<p>🌾 Whatever agriculture product you can imagine — WE HAVE IT! Fresh, quality and straight from the farm to your doorstep! 🚜</p>
+<h2>Our Products</h2>
+<h3>Rubber Latex</h3>
+<p>Price: ₦2,000</p>
+<button onclick="orderNow()">Order Now</button>
+<h3>Yam</h3>
+<p>Price: ₦8,000</p>
+<button onclick="orderNow()">Order Now</button>
+<h3>Corn</h3>
+<p>Price: ₦400 per cob</p>
+<button onclick="orderNow()">Order Now</button>
+<a href="https://wa.me/2348076459567">Contact us on WhatsApp</a>
+<footer>
+  <p>© 2026 Suyi Agro. All rights reserved.</p>
+  <p>WhatsApp: 08076459567</p>
+</footer>
+<script>
+function orderNow() {
+  var name = prompt("What is your name?");
+  if (name) {
+    alert("Thank you " + name + "! Your order is confirmed!");
+  } else {
+    alert("Please enter your name to order!");
+  }
+}
+</script>
+</body>
+</html>
